@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tambola invite</title>
+<script type="text/javascript">
+    var url_string = window.location.search;
+    console.log(url_string);
+    var urlParams = new URLSearchParams(url_string);
+    var data = urlParams.get("data");
+    console.log(data);
+
+    window.location.href = `https://tambolablitz.page.link/?link=https://www.facebook.com/TambolaBlitzZingPlay?data=${data}&apn=com.in.tambola`
+</script>
+</head>
+<body>
+
+<h1>This is a testing for Tambola Invite Feature</h1>
+
+</body>
+</html>
